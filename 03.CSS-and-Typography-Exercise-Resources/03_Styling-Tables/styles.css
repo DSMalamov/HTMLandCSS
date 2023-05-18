@@ -1,0 +1,16 @@
+body{
+    padding: 16px;
+    font-family: "Montserrat",sans-serif;
+    @import url(https://fonts.googleapis.com/css?family=Montserrat);
+}
+
+th{
+    background: lightblue;
+}
+
+th,td{
+    width: 144px;
+    height: 32px;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+}
