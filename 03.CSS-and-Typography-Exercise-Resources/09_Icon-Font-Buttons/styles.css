@@ -9,7 +9,7 @@ body{
 a{
     text-decoration: none;
     color: #fff;
-    padding: 12.6px 27px 12.6px 27px;
+    padding: 12.6px 27px;
     border-radius: 5.40px;
 }
 
@@ -21,10 +21,10 @@ i{
     padding-right: 5.40px;
 }
 
-i.green{
+.green{
     background-color: green;
 }
 
-i.orange{
+.orange{
     background-color: orange;
 }
