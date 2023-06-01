@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    
+}
+
+.container{
+
+    display: flex;
+
+    gap: 1em;
+    flex: 0 0 60%;
+
+}
+
+img{
+    border-radius: 1em;
+    display: flex;
+}
+

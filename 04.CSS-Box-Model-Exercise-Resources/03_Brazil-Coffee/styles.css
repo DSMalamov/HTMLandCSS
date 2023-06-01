@@ -28,7 +28,8 @@ button{
     letter-spacing: 1px;
     text-align: center;
     padding: 8px 16px;
-    margin-block: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 p{

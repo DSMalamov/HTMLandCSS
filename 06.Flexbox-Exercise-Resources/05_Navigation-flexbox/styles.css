@@ -1,0 +1,27 @@
+body header{
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color:  rgb(0, 153, 0);
+}
+
+h1{
+    text-transform: uppercase;
+    flex: 1 0 auto;
+}
+
+li{
+    padding: 0.2em;
+}
+
+body{
+    margin: 4em;
+
+}

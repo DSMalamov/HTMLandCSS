@@ -1,0 +1,64 @@
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    max-width: 15vw;
+    height: 35rem;
+}
+
+span{
+    border: 1px solid black;
+}
+
+
+.one{
+    order: 9;
+}
+
+.two{
+    order: 2;
+}
+
+.three{
+    order: 10;
+}
+
+.fout{
+    order: 4;
+}
+
+.five{
+ order: 8;
+}
+
+.six{
+    order: 7;
+}
+
+.seven{
+    order: 11;
+}
+
+.eight{
+    order: 5;
+}
+
+.nine{
+    order: 6;
+}
+
+.ten{
+    order: 12;
+}
+
+.eleven{
+    order: 1;
+}
+
+.twelve{
+    order: 3;
+}
