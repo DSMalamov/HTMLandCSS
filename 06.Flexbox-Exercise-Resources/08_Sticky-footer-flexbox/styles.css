@@ -1,24 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     background-color:  rgb(238, 238, 238);
     height: 100vh;
     font-family: Helvetica, sans-serif;
+    justify-content: flex-start;
 }
 
 footer{
     color: rgb(255, 255, 255);
     background-color: rgb(102, 102, 102);
+    margin-top: auto;
+    padding: 0.5em;
 }
 
-header{
-    border-bottom: 2px solid black;
-    flex: 1 1 auto;
-    height: 5em;
-
+header, main, footer{
+    border: 2px solid black;
+    padding: 2em;
 }
 
-footer{
-    flex: 1 1 auto;
-    height: 2em;
+main{
+    flex-grow: 1;
+    border-top: none;
+    border-bottom: none;
 }
