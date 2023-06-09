@@ -1,0 +1,58 @@
+@import url(https://use.fontawesome.com/releases/v5.6.3/css/all.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    display: inline-block;
+}
+
+a {
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background-color: rgb(236, 228, 228);
+    width: 1.5em;
+    height: 1.5em;
+}
+
+i{
+    display: flex;
+}
+
+li{
+    
+    font-size: 50px;
+    display: inline-block;
+    margin: 0.2em;
+}
+
+
+
+body{
+    background-color: white;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+ul li:nth-child(1):hover{
+    fill: rgb(24, 68, 246);
+}
+ul li:nth-child(2):hover{
+    fill: #03cffc;
+}
+ul li:nth-child(3):hover{
+    fill: red;
+}
+ul li:nth-child(4):hover{
+    fill: rgb(24, 68, 246);
+}
+ul li:nth-child(5):hover{
+    fill: rgb(155, 213, 255);
+}
+
+

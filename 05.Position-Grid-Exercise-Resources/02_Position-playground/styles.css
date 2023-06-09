@@ -1,0 +1,53 @@
+@import url(https://use.fontawesome.com/releases/v5.6.3/css/all.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card1, .card2 {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.card1{
+    top: 15%;
+    
+}
+
+.card2{
+    bottom: 5%;
+}
+
+
+img{
+    border-radius: 5px;
+}
+
+body{
+    display: grid;
+    grid-template-rows: 50fr 50fr;
+}
+body div:nth-child(1){
+    background-image: linear-gradient(to right, rgb(47, 47, 198), rgb(32, 167, 131));
+    height: 50vh;
+}
+
+body div:nth-child(2){
+    background-image: linear-gradient(to right, rgb(164, 60, 105),rgb(198, 106, 14));
+    height: 50vh;
+}
+
+svg{
+    position: relative;
+    right: 3em;
+    bottom: 1em;
+    height: 2em;
+    width: auto;
+}
+
+
+
