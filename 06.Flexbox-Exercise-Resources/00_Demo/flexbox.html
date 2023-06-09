@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+
+        *, *::before, *::after {
+            box-sizing: inherit;
+        }
+
+        html {
+            box-sizing: border-box;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            padding: 2em;
+        }
+
+        .site {
+            border: 2px solid #333;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 1em;
+            gap: 0em;
+            display: none;
+        }
+
+        .site > * {
+            background: #eee;
+            border: 1px solid #999;
+            padding: 1em;
+            order: 10;
+        }
+
+        .site-header,
+        .site-footer {
+            flex: 1 0 100%;
+        }
+
+        .site-aside {
+            flex: 0 0 30%;
+        }
+
+        .site-main {
+            flex: 1 1 auto;
+        }
+
+        .sidebar-right .site-header { order: 1; }
+        .sidebar-right .site-main { order: 3; }
+        .sidebar-right .site-aside { order: 2; }
+
+        .calendar {
+            display: none;
+        }
+
+        .calendar .row {
+            display: flex;
+        }
+
+        .calendar .days {
+            flex-grow: 1;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .calendar .title,
+        .calendar .day,
+        .calendar .notes {
+            padding: 1em 2em;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        .calendar .title {
+            flex: 1 0 100%;
+        }
+
+        .calendar .day {
+            flex-grow: 1;
+        }
+
+        .calendar .notes {
+            flex: 0 0 20%;
+        }
+
+        .container-demo {
+            border: 1px solid black;
+            padding: 2em;
+            display: flex;
+            flex-direction: column;
+            min-height: 85vh;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+
+    <div class="calendar">
+        <div class="row">
+            <div class="days">
+                <div class="title">Workweek</div>
+                <div class="day">Monday</div>
+                <div class="day">Tuesday</div>
+                <div class="day">Wednesday</div>
+                <div class="day">Thursday</div>
+                <div class="day">Friday</div>
+            </div>
+            <div class="notes">
+                <h3>Reminders</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="days">
+                <div class="title">Workweek</div>
+                <div class="day">Saturday</div>
+                <div class="day">Sunday</div>
+            </div>
+            <div class="notes">
+                <h3>Special Dates</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="site">
+        <header class="site-header">
+            <p>Header</p>
+        </header>
+        <main class="site-main">
+            <p>Main</p>
+        </main>
+        <aside class="site-aside">
+            <p>Aside</p>
+        </aside>
+        <footer class="site-footer">
+            <p>Footer</p>
+        </footer>
+    </div>
+
+    <div class="site sidebar-right">
+        <header class="site-header">
+            <p>Header</p>
+        </header>
+        <main class="site-main">
+            <p>Main</p>
+        </main>
+        <aside class="site-aside">
+            <p>Aside</p>
+        </aside>
+        <footer class="site-footer">
+            <p>Footer</p>
+        </footer>
+    </div>
+
+    
+
+</body>
+</html>
