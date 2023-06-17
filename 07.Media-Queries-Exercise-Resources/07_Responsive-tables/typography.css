@@ -1,2 +1,47 @@
 @import url(reset.css);
 
+body{
+    background: rgba(238,238,238,255);
+}
+thead {
+    background: rgba(51,51,51,255);
+    color: white;
+}
+
+tbody tr:nth-child(even){
+    background-color: white;
+}
+
+table td, table th{
+    border: 1px solid rgba(229,229,229,255);
+    padding: 0.2em;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+@media (width > 767px){
+    table{
+        margin: 1em;
+        width: 95%;
+    }
+}
+
+@media (width < 768px){
+
+    thead{
+        display: table-header-group;
+        flex-direction: column;
+    }
+
+    table td, table th{
+        display: block;
+        flex-wrap: wrap;
+        display: table-header-group;
+    }
+
+    table{
+        display: flex;
+    }
+}

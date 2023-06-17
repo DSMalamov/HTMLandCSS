@@ -1,0 +1,26 @@
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.site-footer ul{
+    display: flex;
+    padding-left: 5em;
+    padding-bottom: 0;
+    gap: 1em;
+}
+
+.site-footer li {
+    display: block;
+    padding-bottom: 0;
+}
+
+.site-footer svg{
+    width: 1.5em;
+    height: auto;
+}
+
+.site-footer p{
+    padding-bottom: 0;
+}

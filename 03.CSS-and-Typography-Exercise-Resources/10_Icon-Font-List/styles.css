@@ -4,10 +4,6 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     line-height: 1.5;
- }
-
-ul{
-    list-style: none;
 }
 
 ul.check i{
@@ -23,4 +19,8 @@ ul.star i{
 ul.contact i{
     color: #3498da;
     font-size: 25px;
+}
+
+body > ul {
+    list-style-type: none;
 }

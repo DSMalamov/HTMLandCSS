@@ -1,0 +1,125 @@
+.banner {
+    display: block;
+    text-align: center;
+    margin: 9em 0;
+}
+
+.banner h2 {
+    color: white;
+    font-size: 3em;
+    letter-spacing: 0.2em;
+    font-weight: 100;
+    padding-bottom: 0.3em;
+}
+
+.banner p {
+    color: white;
+    max-width: 28em;
+    margin: 0 auto;
+    padding-bottom: 2.5em;
+}
+
+.banner a{
+    text-decoration: none;
+    color: white;
+    background: rgba(208, 25, 25, 1);
+    padding: 0.5em 1.5em;
+}
+
+.welcome h2{
+    text-align: center;
+    padding: 1em 0 0 0;
+}
+
+.welcome h2::after {
+    content: "";
+    display: block;
+    width: 2em;
+    height: 2px;
+    background: rgba(208, 25, 25, 1);
+    margin: 1em auto;
+    border-radius: 2px;
+}
+
+.welcome{
+    background: rgba(255, 255, 255, 1);
+    min-height: 25em;
+}
+
+.columns {
+    display: flex;
+    gap: 10em;
+    margin: 0 6em;
+}
+.columns li, .columns li span {
+    display: block;
+    margin: 0 auto;
+}
+.columns li {
+    flex: 1 1 30%;
+    text-align: center;
+}
+
+.columns img{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.media{
+    width: 20%;
+    height: auto;
+    padding-bottom: 1.2em;
+}
+
+.title{
+    font-weight: bold;
+    color: rgba(208, 25, 25, 1);
+    padding-bottom: 1.2em;
+}
+
+.coaches{
+    background: rgba(239, 239, 239, 1);
+}
+.coaches h2 {
+    text-align: center;
+    padding-top: 1em;
+}
+
+.coaches h2::after {
+    content: "";
+    display: block;
+    width: 2em;
+    height: 2px;
+    background: rgba(208, 25, 25, 1);
+    margin: 1em auto;
+    border-radius: 2px;
+}
+
+.coaches .columns {
+    margin: 2em 5em;
+}
+
+.coaches .columns .media{
+    width: 100%;
+}
+
+.coaches .name{
+    font-weight: bold;
+}
+
+.coaches .columns .cont {
+    color: rgba(182, 161, 165, 1);
+}
+
+footer {
+    display: block;
+    background: rgba(208, 25, 25, 1);
+    text-align: center;
+}
+
+footer p{
+    padding: 0.5em 0;
+}
+

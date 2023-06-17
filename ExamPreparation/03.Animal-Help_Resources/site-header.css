@@ -1,0 +1,30 @@
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 1.5em;
+    border-bottom: 1px solid rgba(186,179,186,1);
+}
+
+.site-header h1 {
+    font-size: 14px;
+    padding-left: 2em;
+    margin-bottom: 0;
+}
+
+.site-header ul{
+    display: flex;
+    gap: 1em;
+    padding-bottom: 0;
+    
+}
+
+.site-header ul li{
+    display: block;
+}
+
+.site-header a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}

@@ -1,0 +1,14 @@
+@import url(reset.css);
+@import url(typography.css);
+@import url(site-header.css);
+@import url(site-footer.css);
+@import url(sections.css);
+
+.site{
+    display: flex;
+    max-width: 1024px;
+    /* margin: 0 auto; */
+    min-height: 100vh;
+    flex-direction: column;
+    
+}
