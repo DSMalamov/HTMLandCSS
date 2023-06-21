@@ -1,0 +1,15 @@
+
+
+.site {
+    max-width: 1024px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-footer {
+    margin-top: auto;
+}

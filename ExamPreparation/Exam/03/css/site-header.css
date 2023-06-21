@@ -1,0 +1,44 @@
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1em 0em 1.5em;
+}
+
+.site-header ul{
+    display: flex;
+    padding-left: 6em;
+    gap: 2em;
+}
+
+.site-header li {
+    padding: 0.5em 0;
+    display: block;
+}
+
+.site-header .login{
+    display: flex;
+    gap: 2em;
+    padding-right: 6em;
+}
+
+.main-nav ul li a, .login a{
+    text-decoration: none;
+    color: #000;
+}
+
+.login {
+    display: block;
+    padding: 1;
+}
+
+.login a{
+    padding: 0.5em 0;
+}
+
+.login .border {
+    text-align: center;
+    padding: 0.5em 1em;
+    background: rgba(173, 226, 223, 1);
+    border-radius: 0.5em;
+}
