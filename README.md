@@ -1,4 +1,4 @@
 # HTML and CSS
 HTML and CSS - May 2023 - Solved tasks
 
-![C# Advanced - January 2023 - Certificate](https://user-images.githubusercontent.com/114019382/224825705-42a27ac0-faf9-470a-bbeb-5a87abd95a10.jpeg)
+![HTML   CSS - May 2023 - Certificate](https://github.com/DSMalamov/HTMLandCSS/assets/114019382/5c525633-a296-4b6c-b0ea-7363fdf7a45f)
